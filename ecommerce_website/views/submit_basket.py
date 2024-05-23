@@ -1,8 +1,8 @@
 from flask import Blueprint, request
-from apriori_api.apriori_algo import get_recommendations
-from apriori_api.utils.response import response_with
-import apriori_api.utils.response as resp
-from apriori_api import rules
+from ecommerce_website.apriori_algo import get_recommendations
+from ecommerce_website.utils.response import response_with
+import ecommerce_website.utils.response as resp
+from ecommerce_website import rules
 
 submit_basket = Blueprint('submit_basket', __name__)
 
